@@ -1,0 +1,69 @@
+cask_args appdir: "~/Applications"
+
+## Taps
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "datawire/blackbird"    # tap for telepresence (https://www.telepresence.io/reference/install)
+
+## Casks (Applications)
+# cask 'google-chrome'
+# cask 'authy'
+# cask 'visual-studio-code'
+# cask 'iterm2'
+# cask 'dropbox'
+# cask 'spotify'
+# cask 'sonos'
+# cask 'logitech-options'
+# cask 'keybase'
+# cask 'slack'
+# cask 'whatsapp'
+# cask 'cheatsheet'
+
+## Brew (CLI)
+brew 'zsh'
+brew 'jq'       # json parser
+brew 'bat'      # cat on steroids
+brew 'tmux'     # terminal multiplexer
+brew 'direnv'   # load and unload environment variables depending on the current directory.
+brew 'httpie'   # user-friendly command-line HTTP client for the API era.
+brew 'tldr'     # simplify man pages with practical examples.
+brew 'lsd'      # LSDeluxe
+brew 'chezmoi'  # dotfiles mgmt
+
+# you probably already have git installed; ensure that it is the latest version
+brew 'git'
+brew 'gist'
+brew 'git-lfs'
+brew 'diff-so-fancy'
+brew 'git-crypt'
+
+brew 'golang'
+
+# Containers
+brew 'docker'
+brew 'podman'
+brew 'skopeo'
+brew 'dive'     # a tool to explore docker layers
+
+# K8S
+brew 'kubernetes-cli'
+brew 'kubectl'
+brew 'kubectx'
+brew 'helm'
+
+# Cloud Cli
+brew 'awscli'
+brew 'libyaml'
+brew 's3cmd'
+
+# IaC
+brew 'terraform'
+brew 'terraform-docs' # https://github.com/segmentio/terraform-docs
+brew 'tflint'
+brew 'tfenv'
+brew 'ansible'
+
+# Others
+brew 'pyenv-virtualenv'
