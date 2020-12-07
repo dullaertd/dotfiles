@@ -5,7 +5,9 @@ tap "homebrew/bundle"
 tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
 tap "datawire/blackbird"    # tap for telepresence (https://www.telepresence.io/reference/install)
+tap "yleisradio/terraforms" # tap for Terraform version switcher (https://github.com/Yleisradio/homebrew-terraforms)
 
 ## Casks (Applications)
 # cask 'google-chrome'
@@ -20,6 +22,7 @@ tap "datawire/blackbird"    # tap for telepresence (https://www.telepresence.io/
 # cask 'slack'
 # cask 'whatsapp'
 # cask 'cheatsheet'
+cask 'font-hack-nerd-font'
 
 ## Brew (CLI)
 brew 'zsh'
@@ -33,14 +36,20 @@ brew 'tldr'     # simplify man pages with practical examples.
 brew 'lsd'      # LSDeluxe
 brew 'chezmoi'  # dotfiles mgmt
 brew 'tree'
+brew 'lastpass-cli'
+brew 'circleci'
+brew 'yamllint' # Linter for YAML syntax
+brew 'chtf' 	# Terraform version switcher
 
-# you probably already have git installed; ensure that it is the latest version
+# git related + ensure latest
 brew 'git'
 brew 'gist'
 brew 'git-lfs'
 brew 'diff-so-fancy'
 brew 'git-crypt'
+brew 'git-flow'
 
+# Languages
 brew 'golang'
 
 # Containers
