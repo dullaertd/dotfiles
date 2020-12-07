@@ -23,6 +23,7 @@ tap "datawire/blackbird"    # tap for telepresence (https://www.telepresence.io/
 
 ## Brew (CLI)
 brew 'zsh'
+brew 'coreutils'
 brew 'jq'       # json parser
 brew 'bat'      # cat on steroids
 brew 'tmux'     # terminal multiplexer
@@ -31,6 +32,7 @@ brew 'httpie'   # user-friendly command-line HTTP client for the API era.
 brew 'tldr'     # simplify man pages with practical examples.
 brew 'lsd'      # LSDeluxe
 brew 'chezmoi'  # dotfiles mgmt
+brew 'tree'
 
 # you probably already have git installed; ensure that it is the latest version
 brew 'git'
