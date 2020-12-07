@@ -9,4 +9,4 @@ else
     brew update
 fi
 
-brew bundle --file=./Brewfile
+brew bundle --file=$(dirname "$0")/Brewfile
