@@ -38,7 +38,14 @@ brew 'lastpass-cli'
 brew 'circleci'
 brew 'yamllint' # Linter for YAML syntax
 brew 'chtf' 	# Terraform version switcher
+
+# Hashicorp stack
+brew 'terraform'
+brew 'terraform-docs' # https://github.com/segmentio/terraform-docs
+brew 'tflint'
+brew 'tfenv'
 brew 'packer'	# Hashicorp Packer
+brew 'vault-cli'
 
 # git related + ensure latest
 brew 'git'
@@ -69,10 +76,6 @@ brew 'libyaml'
 brew 's3cmd'
 
 # IaC
-brew 'terraform'
-brew 'terraform-docs' # https://github.com/segmentio/terraform-docs
-brew 'tflint'
-brew 'tfenv'
 brew 'ansible'
 
 # Others
