@@ -39,13 +39,13 @@ brew 'tree'
 brew 'lastpass-cli'
 brew 'circleci'
 brew 'yamllint' # Linter for YAML syntax
-brew 'chtf' 	# Terraform version switcher
 
 # Hashicorp stack
 brew 'terraform'
 brew 'terraform-docs' # https://github.com/segmentio/terraform-docs
 brew 'tflint'
 brew 'tfenv'
+brew 'chtf' 	# Terraform version switcher
 brew 'packer'	# Hashicorp Packer
 brew 'vault-cli'
 
