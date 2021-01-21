@@ -10,18 +10,18 @@ tap "datawire/blackbird"    # tap for telepresence (https://www.telepresence.io/
 tap "yleisradio/terraforms" # tap for Terraform version switcher (https://github.com/Yleisradio/homebrew-terraforms)
 
 ## Casks (Applications)
-# cask 'google-chrome'
-# cask 'authy'
-# cask 'visual-studio-code'
-# cask 'iterm2'
-# cask 'dropbox'
-# cask 'spotify'
-# cask 'sonos'
-# cask 'logitech-options'
-# cask 'keybase'
-# cask 'slack'
-# cask 'whatsapp'
-# cask 'cheatsheet'
+cask 'google-chrome'
+cask 'authy'
+cask 'visual-studio-code'
+cask 'iterm2'
+cask 'dropbox'
+cask 'spotify'
+cask 'sonos'
+cask 'logitech-options'
+cask 'keybase'
+cask 'slack'
+cask 'whatsapp'
+cask 'cheatsheet'
 cask 'font-hack-nerd-font'
 
 ## Brew (CLI)
